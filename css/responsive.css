@@ -1,0 +1,16 @@
+/* Estilos Responsivos */  
+@media (max-width: 768px) {  
+    .contenido {  
+        padding: 10px;  
+    }  
+
+    .menu-iconos img {  
+        width: 25px; /* Ajusta para tablet */  
+    }  
+}  
+
+@media (max-width: 480px) {  
+    .menu-iconos img {  
+        width: 20px; /* Ajusta para móviles */  
+    }  
+}

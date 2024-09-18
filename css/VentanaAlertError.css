@@ -1,0 +1,41 @@
+@import url('index.css'); 
+
+
+.alert-custom {
+    width: 300px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-left: 40px;
+  }
+  
+  .alert-custom .alert-body {
+    color: red;
+    font-size: 1.4rem;
+    font-weight: 400;
+  }
+  
+  .alert-success {
+    background-color:var(--colorblanco);
+    opacity: 0.7;
+    border: 2px solid red;
+    text-align: center;
+  }
+  .alert-success h4 {
+    color:red; 
+  }
+  .alert-success button{
+    background-color: red;
+    opacity: 0.8;
+    border: 1px solid red;
+  }
+  .alert-success button:hover{
+    background-color: red;
+    border: 1px solid var(--colorblanco);
+    color:var(--colorblanco);
+  }  
+  .alert-custom hr {
+    border-color: red;
+    opacity: 0.5;
+  }
