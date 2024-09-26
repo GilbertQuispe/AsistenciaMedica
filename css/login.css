@@ -31,8 +31,8 @@ html{
     place-content: center;  
 }
 .section-login{
-    width: 320px;
-    height: 620px;
+    width: 100%;
+    height: auto;
     border: 1px solid var(--4tocolor);
     border-radius: 5px;
     display: grid;
@@ -111,13 +111,13 @@ figure img{
 }
 button{
     border-color:var(--coloroscuro);
-    border-radius: 10px;
+    /* border-radius: 10px; */    
     background-color: var(--colorbotones);
     color: var(--colorblanco);
 }
-button:focus{
+/* button:focus{
     box-shadow: 0px 3px 11px 3px rgba(0,0,0,0.70);
-}
+} */
 button:hover{
     box-shadow: 0px 3px 11px 3px rgba(0,0,0,0.70);
 }
